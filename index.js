@@ -4,9 +4,9 @@ const AWS = require("aws-sdk");
 
 app.use(express.json());
 const awsConfig = {
-    "region": "us-west-2",
-    "endpoint": "http://dynamodb.us-west-2.amazonaws.com",
-    "accessKeyId": "AKIAZMS4P7E2QTQUFPSN", "secretAccessKey": "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"
+    "region": "a",
+    "endpoint": "a",
+    "accessKeyId": "a", "secretAccessKey": "a"
 };
 
 AWS.config.update(awsConfig);
